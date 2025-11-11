@@ -10,18 +10,14 @@ from pyprojroot import here
 import psycopg2
 import sshtunnel
 
+# from st_files_connection import FilesConnection
 
-# from pyprojroot import here
-# import geopandas as gpd
-# import pandas as pd
-# import yaml
-# import os
-# import sys
+# Create connection object and retrieve file contents.
+# Specify input format is a csv and to cache the result for 600 seconds.
+# conn = st.connection('gcs', type=FilesConnection)
+# aqua_tipline = conn.read("https://storage.googleapis.com/aquaculture-chile/external_datasets/aquaculture_tips.xlsx", input_format="csv", ttl=600)
+# st.dataframe(aqua_tipline)
 
-# # Set up imports from the utils directory
-# root = here() 
-# sys.path.insert(1, str(here()))
-# from utils.io import db_connect, load_secrets
 
 # secrets = load_secrets() # takes in secrets_path, but default is the expected location of config/secrets.yaml
 # eng, tunnel = db_connect(secrets)

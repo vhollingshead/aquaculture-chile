@@ -236,7 +236,7 @@ if __name__ == "__main__":
     print("Use process_dataframe_coordinates() for DataFrame processing")
 
 
-    import logging
+import logging
 import sshtunnel
 from sqlalchemy import create_engine, text
 from sqlalchemy.exc import SQLAlchemyError
@@ -244,7 +244,6 @@ from pyprojroot import here
 import os
 import yaml
 
-import logging
 logger = logging.getLogger(__name__)
 
 def db_connect(secrets):
